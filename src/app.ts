@@ -1,9 +1,9 @@
-import { OpenAPIHono } from "@hono/zod-openapi";
+import createApp from "@/lib/create-app";
 
-const app = new OpenAPIHono();
+import configureOpenAPI from "./lib/configure-open-api";
 
-app.get("/", (c) => {
-  return c.text("Hello Hono!");
-});
+const app = createApp();
+
+configureOpenAPI(app);
 
 export default app;
