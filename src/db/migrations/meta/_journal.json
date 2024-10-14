@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1728655020970,
+      "tag": "0000_dear_george_stacy",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1728824736451,
+      "tag": "0001_giant_darwin",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1728824952646,
+      "tag": "0002_real_emma_frost",
+      "breakpoints": true
+    }
+  ]
+}
